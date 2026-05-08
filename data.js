@@ -47,19 +47,33 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.5309559048408463,
+        "pitch": -0.04882570298389233,
+        "fov": 1.9205307732459138
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": 0.7840831626825135,
+          "pitch": -0.022643384509683173,
+          "rotation": 6.283185307179586,
+          "target": "0-fake_room_panorama"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.5309559048408463,
+          "pitch": -0.04882570298389233,
+          "title": "Title",
+          "text": "Text"
+        }
+      ]
     }
   ],
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
-    "fullscreenButton": false,
-    "viewControlButtons": false
+    "autorotateEnabled": false,
+    "fullscreenButton": true,
+    "viewControlButtons": true
   }
 };
