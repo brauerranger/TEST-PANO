@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-test_equirectangular_panorama",
-      "name": "test_equirectangular_panorama",
+      "id": "0-r0010012",
+      "name": "R0010012",
       "levels": [
         {
           "tileSize": 256,
@@ -16,40 +16,35 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2752,
       "initialViewParameters": {
-        "yaw": 1.0583509079147433,
-        "pitch": 0.22128551358602166,
-        "fov": 1.9179540180015482
+        "yaw": 0.3232992738615579,
+        "pitch": 0.09976906285138654,
+        "fov": 1.5661132029283218
       },
       "linkHotspots": [
         {
-          "yaw": 0.7840832701019362,
-          "pitch": -0.02264335990879829,
-          "rotation": 6.283185307179586,
-          "target": "1-fake_room_panorama"
-        },
-        {
-          "yaw": 1.0583509224342311,
-          "pitch": 0.22128548266481474,
+          "yaw": -2.787728470141479,
+          "pitch": 0.2890044034810355,
           "rotation": 0,
-          "target": "1-fake_room_panorama"
+          "target": "1-r0010010"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 1.5309559048408463,
-          "pitch": -0.04882570298389233,
-          "title": "Title",
-          "text": "Text"
-        }
-      ]
+      "infoHotspots": []
     },
     {
-      "id": "1-fake_room_panorama",
-      "name": "fake_room_panorama",
+      "id": "1-r0010010",
+      "name": "R0010010",
       "levels": [
         {
           "tileSize": 256,
@@ -63,9 +58,17 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
         }
       ],
-      "faceSize": 1024,
+      "faceSize": 2752,
       "initialViewParameters": {
         "pitch": 0,
         "yaw": 0,
@@ -73,12 +76,299 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.91778184359619,
-          "pitch": 0.010995418492004916,
-          "rotation": 6.283185307179586,
-          "target": "0-test_equirectangular_panorama"
+          "yaw": -0.053006321533452194,
+          "pitch": 0.14163510998505835,
+          "rotation": 0,
+          "target": "0-r0010012"
         }
       ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-r0010009",
+      "name": "R0010009",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2752,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-r0010008",
+      "name": "R0010008",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2752,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-r0010007",
+      "name": "R0010007",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2752,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-r0010006",
+      "name": "R0010006",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2752,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-r0010005",
+      "name": "R0010005",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2752,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-r0010004",
+      "name": "R0010004",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2752,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.0608327511320077,
+          "pitch": 0.321810229116144,
+          "rotation": 0,
+          "target": "6-r0010005"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-r0010003",
+      "name": "R0010003",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2752,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-r0010002",
+      "name": "R0010002",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2752,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
